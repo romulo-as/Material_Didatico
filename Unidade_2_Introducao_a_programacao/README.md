@@ -218,12 +218,8 @@ A tabela a seguir apresenta algumas funções matemáticas que podem ser utiliza
 Como o nome sugere, são expressões que comparam duas coisas, sempre nos mostrando um resultado verdadeiro ou falso, ou seja, um valor verdade.  
 Estes são os seguintes operadores comparativos:  
 
-> - maior  
-< - menor  
->= - maior ou igual  
-<= - menor ou igual  
-== - igual  
-!= - diferente  
+<img src="operadorLog.jpeg" alt="Log1" width="400px" height="200">  
+
 
 Considere a seguinte suposição (x = 5), ao analisar as alternativas abaixo podemos exemplificar como funcionam os operadores em uma expressão comparativa:  
 
