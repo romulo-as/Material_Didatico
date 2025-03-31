@@ -213,3 +213,33 @@ A tabela a seguir apresenta algumas funções matemáticas que podem ser utiliza
 
 
 # Estrutura Condicional  
+## Expressões Comparativas Java:  
+
+Como o nome sugere, são expressões que comparam duas coisas, sempre nos mostrando um resultado verdadeiro ou falso, ou seja, um valor verdade.
+Estes são os seguintes operadores comparativos:  
+
+> - maior  
+< - menor  
+>= - maior ou igual  
+<= - menor ou igual  
+== - igual  
+!= - diferente  
+
+Considere a seguinte suposição (x = 5), ao analisar as alternativas abaixo podemos exemplificar como funcionam os operadores em uma expressão comparativa:  
+
+X > 0			Resultado: Verdadeiro  
+X == 3			Resultado: Falso  
+50 <= 100		Resultado: Verdadeiro  
+X != 5			Resultado: Falso  
+
+## Expressões Lógicas Java:  
+
+Assim como as expressões comparativas, as expressões lógicas quando avaliadas resultam em um valor verdade, verdadeiro ou falso.
+Temos os seguintes operadores lógicos:   
+
+&& - E (and) : A ideia por trás deste operador é de que todas as condições devem ser verdadeiras dentro de uma expressão lógica para que esta seja verdadeira;
+Por exemplo:  
+
+
+|| - OU (or) :   
+! - NÃO (not)  
