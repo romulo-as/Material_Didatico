@@ -237,4 +237,73 @@ Temos os seguintes operadores lógicos:
 Por exemplo:  
 
 || - OU (or) : 
-! - NÃO (not)
+! - NÃO (not)  
+
+
+# Estruturas Repetitivas  
+
+## Estrutura repetitiva "enquanto" (while)  
+
+A estrutura while é uma estrutura de controle que repete um bloco de comandos enquato uma condição for verdadeira.  
+
+<b>Quando usar:</b> Utiliza-se o while quando <b>não</b> se sabe previamente a quantidade de repetições que será realizada.  
+
+Exemplo: Escrever um programa que lê números inteiros até que um zero seja lido. Ao final mostra a soma dos números lidos.  
+Enquanto não for digitado o número 0, o programa irá armazenar os números digitados e ao final entregará a soma desses números na saída. Nesse caso se sabe previamente quantos números serão digitados, por isso é interessante usar o while.  
+
+<b>Sintaxe/Regra</b>  
+
+while (condição) {  
+    <ul>
+    <li>comando 1</li>  
+    <li>comando 2</li>  
+    </ul>
+}  
+
+Regra:  
+    V: executa e volta
+    F: pula fora  
+
+Note que a sintaxe é igual a da estrutura if, ou seja, se a condição for verdadeira, execute o bloco de comandos, se falsa, pule fora. A diferença é que no while, quando a condição é verdadeira ele executa e volta, ou seja, executa novamente, <b>enquanto</b> a condição for verdadeira.  
+Veja o exemplo "Exemplo while 1" no Colab para uma visualização prática do problema anterior. Teste em sua IDE.  
+
+## Estrutura Repetitiva "para" (for)  
+
+A estrutura repetitiva for é uma estrutura de controle que repete um bloco de comandos para um certo intervalo de valores.  
+
+<b>Quando usar:</b> Usa-se o "for" quando se sabe previamente a quantidade de repetições, ou o intervalo de valores.  
+
+Exemplo: Fazer um programa que lê um valor inteiro N e depois N números inteiros. Ao final, mostra a soma dos N números lidos.  
+
+<b>Sintaxe/regra</b>  
+
+for ( início ; condição ; incremento ) {  
+    <ul>
+    <li>comando 1</li>  
+    <li>comando 2</li>  
+    </ul>
+}  
+
+<b>início:</b> Executa somente na primeira vez.  
+<b>condição:</b> Se verdadeira, executa e volta, como no while, se falsa, pula fora.  
+<b>incremento:</b> Executa toda vez depois de voltar. Ou seja, se a condição foi verdadeira, executou o bloco de comandos, voltou a primeira vez, executa o incremento, e enquanto a condição for verdadeira, o processo será repetido.  
+
+Veja o exemplo acima na prática com o "Exemplo for 1" no Colab. Copie e cole o código em sua IDE e tente rodar.  
+<b>Nota:</b> "i++" é a forma resumida de se escrever "i = i + 1". Utilizado para incrementos.  
+
+## Estrutura Repetitiva "faça-enquanto"  
+
+Essa estrutura é menos utilizada que o "while" ou "for", mas em alguns casos ela se encaixa melhor ao problema.  
+A grande diferença entre o "do-while" para as outras estruturas é que o bloco de comandos será executado pelo menos uma vez, pois a condição é verificada no final, já as outras duas estruturas verificam a condição no início, e se a condição é falsa no início, aquelas estruturas não executam o código nenhuma vez.  
+
+<b>Sintaxe/regra</b>  
+
+do {
+    <ul>
+    <li>comando 1</li>
+    <li>comando 2</li>
+    </ul>
+} while ( condição );  
+
+Note que nessa estrutura, se a condição for verdadeira após a execução ela volta, se falsa, pula fora.  
+Veja o exemplo acima na prática com o "Exemplo do-while 1" no Colab. Copie e cole o código em sua IDE e tente rodar.  
