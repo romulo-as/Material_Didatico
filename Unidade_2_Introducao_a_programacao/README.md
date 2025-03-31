@@ -210,3 +210,6 @@ Resolução do exercício se encontra em "Exercício 1" dentro da seção "Resol
 A tabela a seguir apresenta algumas funções matemáticas que podem ser utilizadas em diversos códigos.  
 
 <img src="math.jpeg" alt="math1" width="600px" height="150">  
+
+
+# Estrutura Condicional  
