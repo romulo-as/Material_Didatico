@@ -210,8 +210,8 @@ Resolução do exercício se encontra em "Exercício 1" dentro da seção "Resol
 A tabela a seguir apresenta algumas funções matemáticas que podem ser utilizadas em diversos códigos.  
 
 <img src="math.jpeg" alt="math1" width="600px" height="150">  
-
-
+  
+  
 # Estrutura Condicional  
 ## Expressões Comparativas Java:  
 
@@ -236,8 +236,65 @@ Temos os seguintes operadores lógicos:
 && - E (and) : A ideia por trás deste operador é de que todas as condições devem ser verdadeiras dentro de uma expressão lógica para que esta seja verdadeira;  
 Por exemplo:  
 
-|| - OU (or) : 
-! - NÃO (not)  
+<img src="exemploE.jpeg" alt="Log1" width="400px" height="200">  
+
+
+<b>OR</b> - A ideia por trás deste operador lógico, é de que no mínimo uma condição deve ser verdadeira numa expressão para que ela seja verdadeira.  
+
+Por exemplo:  
+
+"suponha x igual a 2"  
+x == 3 || x <= 38 		Resultado  = Verdadeiro  
+
+Pois a "x <= 38" é verdadeira e "x == 3" é falsa, logo quando há ao menos uma condição verdadeira, a expressão também será verdadeira.  
+
+<b>NÃO</b>: Este operador inverte a condição;  
+
+Por exemplo:  
+
+"suponha x igual a 5"  
+! x == 8	Resultado: Verdadeiro  
+! x >= 2	Resultado: Falso  
+
+Pois se a condição for Falsa, se tornará verdadeira, e vice versa, se for verdadeira se tornará falsa  
+
+##  Estruturas Condicionais  
+
+É uma estrutura de controle que permite definir que um certo bloco de comandos somente será executado dependendo de uma condição, se a condição for verdadeira, um bloco será executado, se for falsa outro bloco será executado.  
+Temos basicamente dois tipos de estruturas condicionais, as simples e as compostas.  
+
+<b>Simples</b>: Se a condição for verdadeira, ela executa o bloco de comandos, e se for falsa, ela pula o bloco de comandos.  
+	
+	if ( condição ) {
+		      <comando 1>  
+		      <comando 2>  
+	}	
+
+<b>Composta ou de controle</b>: Se a condição for verdadeira, executa o bloco do if, se for falsa, executa somente o bloco do else.   
+
+	if ( condição ) {   
+		<comando1>  
+		<comando2>  
+	}  
+	
+	else {  
+		<comando3>  
+		<comando4>  
+	}  
+
+##  Expressão Condicional Ternária  
+
+É uma estrutura opcional ao if-else quando há o desejo de decidir um valor com base em uma condição. 
+Sintaxe:   
+	( condição ) ? valor_se_verdadeiro : valor_se_falso
+
+Por exemplo:
+	
+	( 2 > 4 )? 51 : 81     		Resultado: 81  
+	(  11 != 3 ) ? "Maria" : "William"	Resultado: "Maria"  
+
+Na primeira expressão, como ela é falsa, o resultado dá o segundo numero após a interrogação, ou seja "81".  
+Na segunda expressão, como ela é verdadeira, o resultado dá o primeiro nome após a interrogação, que é "Maria".  
 
 
 # Estruturas Repetitivas  
