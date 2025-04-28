@@ -9,7 +9,7 @@ Anderson Gomes dos Santos
 
 <b>Colab</b>  
 <b>Unidade 2:</b> https://colab.research.google.com/drive/1XvRqUOnCOCX1dywpmiAQjoqKfuzsdMae?usp=sharing  
-
+<b>Unidade 3:</b> https://colab.research.google.com/drive/1qWt1CgD61Kb-mrDRWFd0ZpK1da3hxUJ4#scrollTo=3cofz8XQX8Tc
 
 ## Referências
 
