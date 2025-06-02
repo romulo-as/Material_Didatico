@@ -1,15 +1,18 @@
-# Material_Didatico
+# Material Didatico para Programação de Computadores    
+
+Este material foi desenvolvido por alunos do Centro Universitario do Distrito Federal (UDF), do curso de Análise e Desenvolvimento de Sistemas (ADS) na disciplina Programação de Computadores orientada pela professora Kadidja Valeria Reginaldo de Oliveira e tem como objetivo criar um material didático de estudos para iniciantes na programação de computadores voltado para a linguagem Java, com exemplos práticos 
+
+Requisitos: Computador Pessoal, Win10 ou superior.  
 
 ## Integrantes  
 Rômulo Andrade de Santana  
 William Guimarães Barbosa  
 Anderson Gomes dos Santos  
 
-## Links  
+## Sobre o Projeto
 
-<b>Colab</b>  
-<b>Unidade 2:</b> https://colab.research.google.com/drive/1XvRqUOnCOCX1dywpmiAQjoqKfuzsdMae?usp=sharing  
-<b>Unidade 3:</b> https://colab.research.google.com/drive/1qWt1CgD61Kb-mrDRWFd0ZpK1da3hxUJ4#scrollTo=3cofz8XQX8Tc
+
+## 
 
 ## Referências
 
