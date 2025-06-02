@@ -6,11 +6,10 @@ Este material foi desenvolvido por alunos do Centro Universitario do Distrito Fe
  Computador Pessoal, Win10 ou superior e um editor para trabalhar com o código, neste material é utilizado o Eclipse.  
 
 ## Integrantes  
-Os colaboradores deste projeto são:  
-    Rômulo Andrade de Santana:  
-Responsável   
-    William Guimarães Barbosa  
-    Anderson Gomes dos Santos  
+Os colaboradores deste projeto são:    
+    Anderson Gomes dos Santos: Responsável pelo Material didático da Unidade 01;     
+    William Guimarães Barbosa: Responsável pelo Material didático da Unidade 02, Atividades práticas propostas e Vídeo de Apresentação;  
+    Rômulo Andrade de Santana: Responsável pelo Material didático das Unidaddes 03 e 04, Atividades práticas propostas e Formatação;  
 
 ## Sobre o Projeto  
 O projeto foi desenvolvido com a finalidade de introduzir iniciantes à programação e auxiliar nos estudos e foi dividido em 04 Unidades que são:  
@@ -19,7 +18,13 @@ Unidade 2: Introdução a Programação
 Unidade 3: Estruturas Condicionais e de Repetição  
 Unidade 4: Vetores e Matriz  
 
+## Conclusão  
 
+Este projeto foi de grande aprendizado para nosso grupo, tendo em vista que era uma linguagem de programação inédita, então foi um desafio elaborar o material e ter que aprender sobre as nuances do Java e suas particularidades, também foi muito útil aprender sobre a utilização do GitHub para compartilhar nossos projetos futuros e organizá-los da melhor forma.  
+
+Assim como o ensinar é a melhor maneira e mais prazerosa de se fixar um tema, foi muito interessante a produção deste material, tendo em vista o ato de passar um conhecimento adiante, para reforçar o nosso entendimento de teorias e aplicações de técnicas de programação e quem sabe auxiliar novos ingressantes na área de Tecnologia.   
+
+Com o desenvolvimento de introdução em diversas partícularidades, sentimos a possibilidade ou necessidade de nos aprofundarmos em temas específicos no futuro, podendo trazer novas unidades que aprofundem em técnicas específicas de programação e do Java.  
 
 
 
