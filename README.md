@@ -12,11 +12,14 @@ Os colaboradores deste projeto são:
     Rômulo Andrade de Santana: Responsável pelo Material didático das Unidaddes 03 e 04, Atividades práticas propostas e Formatação;  
 
 ## Sobre o Projeto  
-O projeto foi desenvolvido com a finalidade de introduzir iniciantes à programação e auxiliar nos estudos e foi dividido em 04 Unidades que são:  
-Unidade 1: Introdução a Lógica de Programação.  
-Unidade 2: Introdução a Programação  
+O projeto foi desenvolvido com a finalidade de introduzir iniciantes à programação em Java e auxiliar nos estudos, e foi dividido em 04 Unidades que são:  
+Unidade 1: Introdução a Lógica de Programação;  
+Unidade 2: Introdução a Programação;  
 Unidade 3: Estruturas Condicionais e de Repetição  
 Unidade 4: Vetores e Matriz  
+
+Podem conferir melhor no vídeo abaixo relacionado:  
+https://drive.google.com/file/d/1-7O6VpyN75shXf0qi8m_pPavSdBqSNTa/view?usp=sharing
 
 ## Conclusão  
 
