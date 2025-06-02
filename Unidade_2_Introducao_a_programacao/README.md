@@ -75,8 +75,14 @@ Para escrever na tela um texto qualquer, utilizamos dois comandos básicos.
 Sem quebra de linha no final: System.out.print("Bom dia!");  
 Com quebra de linha no final: System.out.println("Bom dia!");  
 
-Entre no nosso google colab e copie o código Exemplo 1 para sua IDE e teste para ver a diferença entre os dois tipos de saída.  
-https://colab.research.google.com/drive/1XvRqUOnCOCX1dywpmiAQjoqKfuzsdMae?usp=sharing  
+Exemplo:  
+
+    public class Main {  
+        public static void main(String[] args) {  
+            System.out.println("Olá Mundo!");  
+            System.out.print("Bom Dia!");  
+        }  
+    }  
 
 Para escrever o conteúdo de uma variável de algum tipo básico.  
 Suponha uma variável do tipo int declarada e iniciada:  
@@ -97,10 +103,18 @@ double x = 10.35784;
 Para escrever o valor da variável por completo basta utilizar o mesmo print do exemplo de int:  
 System.out.println(x);  
   
-Há outras formas de mostrar esse número com a quantia de casas decimais que desejar, substituindo o "println" por "printf", onde "f" significa "format", ou seja será valor formatado. Para tal, deve-se abrir o parenteses, abre aspas duplas e escreve "%.2f" para indicar um numero formatado com duas casas decimais, fecha aspas, segue uma virgula e o nome da variável. Veja os exemplos a seguir, que estão representados no exemplo 2 no google colab.   
+Há outras formas de mostrar esse número com a quantia de casas decimais que desejar, substituindo o "println" por "printf", onde "f" significa "format", ou seja será valor formatado. Para tal, deve-se abrir o parenteses, abre aspas duplas e escreve "%.2f" para indicar um numero formatado com duas casas decimais, fecha aspas, segue uma virgula e o nome da variável.  
 
-System.out.printf("%.2f%n", x);  
-System.out.printf("%.4f%n", x);  
+    public class Main {
+        public static void main(String[] args) {
+
+            double x = 10.35784;
+
+            System.out.println(x);
+            System.out.printf("%.2f%n", x);
+            System.out.printf("%.4f%n", x);
+        }
+    }
 
 Obs: %n = quebra de linha (independente da plataforma)  
 
@@ -123,17 +137,20 @@ O processamento de dados em qualquer linguagem de programação é feito atravé
 variável = expressão;  
 
 Do lado esquerdo escrevemos a variável, seguido de = (Lê-se "recebe"), e do lado direito a expressão.  
-Primeiramente o programa irá calcular a expressão e em seguida armazenará o resultado na variável desejada. Ou seja, a variável recebe o valor da expressão.  
-Abra o exemplo 3 no colab para observar o seguinte exemplo.  
+Primeiramente o programa irá calcular a expressão e em seguida armazenará o resultado na variável desejada. Ou seja, a variável recebe o valor da expressão.    
 
-int x;  
-double y;  
+    public class Main {
+        public static void main(String[] args) {
+            int x;
+            double y;
 
-x = 5;  
-y = 2 * x;  
+            x = 5;
+            y = 2 * x;
 
-System.out.println(x);
-System.out.println(y);  
+            System.out.println(x);
+            System.out.println(y);
+        }
+    } 
 
 No exemplo acima a variável int x recebe o valor 5 e a variável y recebe o resultado de 2 multiplicado por x no tipo double, ou seja, com ponto flutuante, e irá imprimir na tela o resultado com o ponto flutuante.  
 
@@ -159,7 +176,21 @@ O que queremos é que o conteúdo que digitamos entre nessa variável x, para is
 
 x = sc.next();  
 
-Veja na prática pelo item "Prática Scanner 1" no link do colab.  
+Veja na prática:  
+
+    import java.util.Scanner;
+
+    public class Main {
+        public static void main(String[] args) {
+            Scanner sc = new Scanner(System.in);
+
+            String x;
+            x = sc.next();
+            System.out.println("Você digitou: " + x);
+
+            sc.close();
+        }
+    }
 
 Assim que rodar o código em sua IDE, ele irá parar e aguardar que digite algo, tente digitar seu nome e em seguida teclar enter para ver que o programa continuará imprimindo o nome no lugar da variável.  
 
@@ -195,7 +226,27 @@ x = sc.next().charAt(0);
 <b>Para ler um texto até a quebra de linha:</b>
 
 A idéia é que possamos digitar várias palavras ou valores e assim que apertar o enter, todo o conteúdo vá para uma variável do tipo String.  
-Utilize o código em "Prática Scanner 2" no colab.  
+
+import java.util.Scanner;
+
+    public class Main {
+        public static void main(String[] args) {
+            Scanner sc = new Scanner(System.in);
+
+            String s1, s2, s3;
+
+            s1 = sc.nextLine();
+            s2 = sc.nextLine();
+            s3 = sc.nextLine();
+
+            System.out.println("DADOS DIGITADOS:");
+            System.out.println(s1);
+            System.out.println(s2);
+            System.out.println(s3);
+
+            sc.close();
+        }
+    }
 
 Ao rodar o programa ele irá parar aguardando que digite algo, tente digitar mais de uma palavra e quando teclar enter, escreva novamente, e novamente, até que ele imprima na tela de acordo com a quantida de scanners que foram solicitados, no caso do exemplo, serão 3.  
 
@@ -203,7 +254,40 @@ Ao rodar o programa ele irá parar aguardando que digite algo, tente digitar mai
 
 ### Exercício:  
 <img src="exercicio1.jpeg" alt="exercicio1" width="700px" height="150">  
-Resolução do exercício se encontra em "Exercício 1" dentro da seção "Resolução de exercícios" no Google Colab.  
+
+Tente resolver o exercício e depois compare com a resolução a seguir:  
+
+    import java.util.Locale;
+    import java.util.Scanner;
+
+    public class Main {
+
+        public static void main(String[] args) {
+
+            Locale.setDefault(Locale.US);
+            Scanner sc = new Scanner(System.in);
+
+            double A, B, C, triangulo, circulo, trapezio, quadrado, retangulo;
+
+            A = sc.nextDouble();
+            B = sc.nextDouble();
+            C = sc.nextDouble();
+
+            triangulo = A * C / 2.0;
+            circulo = 3.14159 * C * C;
+            trapezio = (A + B) / 2.0 * C;
+            quadrado = B * B;
+            retangulo = A * B;
+
+            System.out.printf("TRIANGULO: %.3f%n", triangulo);
+            System.out.printf("CIRCULO: %.3f%n", circulo);
+            System.out.printf("TRAPEZIO: %.3f%n", trapezio);
+            System.out.printf("QUADRADO: %.3f%n", quadrado);
+            System.out.printf("RETANGULO: %.3f%n", retangulo);
+
+            sc.close();
+        }
+    }
 
 ## Funções matemáticas em Java  
 
@@ -243,7 +327,8 @@ Por exemplo:
 Por exemplo:  
 
 "suponha x igual a 2"  
-x == 3 || x <= 38 		Resultado  = Verdadeiro  
+
+    x == 3 || x <= 38 		Resultado  = Verdadeiro  
 
 Pois a "x <= 38" é verdadeira e "x == 3" é falsa, logo quando há ao menos uma condição verdadeira, a expressão também será verdadeira.  
 
@@ -251,8 +336,9 @@ Pois a "x <= 38" é verdadeira e "x == 3" é falsa, logo quando há ao menos uma
 
 Por exemplo:  
 
-"suponha x igual a 5"  
-! x == 8	Resultado: Verdadeiro  
-! x >= 2	Resultado: Falso  
+"suponha x igual a 5" 
+
+    ! x == 8	Resultado: Verdadeiro  
+    ! x >= 2	Resultado: Falso  
 
 Pois se a condição for Falsa, se tornará verdadeira, e vice versa, se for verdadeira se tornará falsa  
