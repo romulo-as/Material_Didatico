@@ -1,18 +1,27 @@
 # Material Didatico para Programação de Computadores    
 
-Este material foi desenvolvido por alunos do Centro Universitario do Distrito Federal (UDF), do curso de Análise e Desenvolvimento de Sistemas (ADS) na disciplina Programação de Computadores orientada pela professora Kadidja Valeria Reginaldo de Oliveira e tem como objetivo criar um material didático de estudos para iniciantes na programação de computadores voltado para a linguagem Java, com exemplos práticos 
+Este material foi desenvolvido por alunos do Centro Universitario do Distrito Federal (UDF), do curso de Análise e Desenvolvimento de Sistemas (ADS) na disciplina Programação de Computadores orientada pela professora Kadidja Valeria Reginaldo de Oliveira e tem como objetivo abrir portas para o primeiro contato com a programação de computadores, com um material didático de estudos para iniciantes na área, voltado para a linguagem Java, com exemplos práticos acerca do tema.  
 
-Requisitos: Computador Pessoal, Win10 ou superior.  
+## Requisitos:  
+ Computador Pessoal, Win10 ou superior e um editor para trabalhar com o código, neste material é utilizado o Eclipse.  
 
 ## Integrantes  
-Rômulo Andrade de Santana  
-William Guimarães Barbosa  
-Anderson Gomes dos Santos  
+Os colaboradores deste projeto são:  
+    Rômulo Andrade de Santana:  
+Responsável   
+    William Guimarães Barbosa  
+    Anderson Gomes dos Santos  
 
-## Sobre o Projeto
+## Sobre o Projeto  
+O projeto foi desenvolvido com a finalidade de introduzir iniciantes à programação e auxiliar nos estudos e foi dividido em 04 Unidades que são:  
+Unidade 1: Introdução a Lógica de Programação.  
+Unidade 2: Introdução a Programação  
+Unidade 3: Estruturas Condicionais e de Repetição  
+Unidade 4: Vetores e Matriz  
 
 
-## 
+
+
 
 ## Referências
 
